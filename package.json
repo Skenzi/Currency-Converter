@@ -1,0 +1,33 @@
+{
+  "name": "convertermoney",
+  "version": "0.0.0",
+  "description": "Converter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Skenzi/Currency-Converter.git"
+  },
+  "keywords": [
+    "Converter",
+    "Currency"
+  ],
+  "author": "Dmitri Klimenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Skenzi/Currency-Converter/issues"
+  },
+  "homepage": "https://github.com/Skenzi/Currency-Converter#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.4"
+  },
+  "devDependencies": {
+    "eslint": "^7.31.0",
+    "eslint-plugin-react": "^7.24.0",
+    "jest": "^27.0.6"
+  }
+}

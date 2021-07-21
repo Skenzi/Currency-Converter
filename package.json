@@ -2,13 +2,13 @@
   "name": "convertermoney",
   "version": "0.0.0",
   "description": "Converter",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Skenzi/Currency-Converter.git"
+    "url": "git@github.com/Skenzi/Currency-Converter"
   },
   "keywords": [
     "Converter",
@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/Skenzi/Currency-Converter/issues"
   },
-  "homepage": "https://github.com/Skenzi/Currency-Converter#readme",
+  "homepage": "",
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2",

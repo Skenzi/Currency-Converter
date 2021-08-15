@@ -1,4 +1,4 @@
-[![Node CI](https://github.com/Skenzi/Currency-Converter/workflows/Node%20Ci/badge.svg)](https://github.com/Skenzi/Currency-Converter/actions)
+[![Node CI](https://github.com/Skenzi/Currency-Converter/workflows/Node%20CI/badge.svg)](https://github.com/Skenzi/Currency-Converter/actions)
 
 # Currency-Converter
 

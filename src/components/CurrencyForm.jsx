@@ -12,6 +12,7 @@ const CurrencyForm = () => {
     event.preventDefault();
     dispatch(changeCurrency(currency.toUpperCase()));
     const response = axios.get(`https://v6.exchangerate-api.com/v6/8af7256db7b4a0580ec9109a/latest/${currency}`);
+    console.log(response);
     response.then(({ data }) => {
       dispatch(updateRates(data.conversion_rates));
     })

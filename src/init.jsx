@@ -7,9 +7,9 @@ import App from './components/App.jsx';
 import store from './store/store.js';
 import resources from './locales/index.js';
 
-export default () => {
+export default async () => {
   const i18n = i18next.createInstance();
-  i18n
+  await i18n
     .use(initReactI18next)
     .init({
       resources,

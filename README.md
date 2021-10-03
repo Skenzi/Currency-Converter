@@ -3,7 +3,9 @@
 
 # Currency-Converter
 
-## [Link to the page](https://currency-converter-89bnateeg-fitronavm-gmailcom.vercel.app/)
+Web application for viewing the exchange rate
+
+## [Link to the page](https://currency-converter-amber.vercel.app/)
 
 ## Install
 

@@ -16,17 +16,14 @@ const CurrencyTable = () => {
         </tr>
       </thead>
       <tbody>
-        {ratesKeys.map((rateKey) => {
-          const id = _.uniqueId();
-          return (
-            <tr key={id}>
-              <td>
-                {`${baseCurrency}/${rateKey}`}
-              </td>
-              <td>{rates[rateKey]}</td>
-            </tr>
-          );
-        })}
+        {ratesKeys.map((rateKey) => (
+          <tr key={_.uniqueId()}>
+            <td>
+              {`${baseCurrency}/${rateKey}`}
+            </td>
+            <td>{rates[rateKey]}</td>
+          </tr>
+        ))}
       </tbody>
     </table>
   );
